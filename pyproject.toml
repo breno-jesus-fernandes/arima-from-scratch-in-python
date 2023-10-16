@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "arima-from-scratch-in-python"
+version = "0.1.0"
+description = "ARIMA model from scratch written in python"
+authors = ["breno-jesus-fernandes <breno.de.jesus.fernandes@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pandas = "2.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.2"
+ruff = "^0.0.292"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
